@@ -1,0 +1,7 @@
+<h1>Edit Question</h1>
+<%= render 'form' %><br/>
+<%= link_to 'show', @question, :class => 'btn btn-primary' %>
+<%= link_to 'Back', questions_path, :class => 'btn btn-warning' %>
+<% content_for(:title) do %>
+Edit question
+<% end %>
